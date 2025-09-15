@@ -2,7 +2,6 @@
   "$schema": "https://github.com/googleapis/release-please/raw/main/schemas/config.json",
   "release-type": "node",
   "always-link-local": true,
-  "prerelease": true,
   "plugins": [
     {
       "type": "node-workspace",
@@ -12,6 +11,7 @@
   "packages": {
     ".": {
       "release-type": "node",
+      "versioning": "prerelease",
       "prerelease-type": "alpha",
       "prerelease": true
     }
