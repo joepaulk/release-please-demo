@@ -8,12 +8,6 @@
       "merge": false
     }
   ],
-  "packages": {
-    ".": {
-      "release-type": "node",
-      "versioning": "prerelease",
-      "prerelease-type": "alpha",
-      "prerelease": true
-    }
-  }
+  "versioning": "prerelease",
+  "prerelease": true
 }
