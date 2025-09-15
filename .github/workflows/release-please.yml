@@ -3,6 +3,8 @@ name: release-please
 on:
   push:
     branches: [ "main" ]
+  pull_request:
+    types: [labeled]
 
 permissions:
   contents: write
