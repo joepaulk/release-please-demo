@@ -1,0 +1,18 @@
+{
+  "$schema": "https://github.com/googleapis/release-please/raw/main/schemas/config.json",
+  "release-type": "node",
+  "always-link-local": true,
+  "prerelease": true,
+  "plugins": [
+    {
+      "type": "node-workspace",
+      "merge": false
+    }
+  ],
+  "packages": {
+    ".": {
+      "release-type": "node",
+      "prerelease-type": "alpha",
+    }
+  }
+}
